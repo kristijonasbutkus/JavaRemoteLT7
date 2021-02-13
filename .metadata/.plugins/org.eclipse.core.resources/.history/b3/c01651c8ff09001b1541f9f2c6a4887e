@@ -1,0 +1,15 @@
+
+public class main {
+
+	public static void main(String[] args) {
+			
+		System.out.println("Sveikas pasauli :)");
+	}
+
+
+public static float Veiksmas (float a, float b) {
+	
+	if (System.in)
+}
+
+}

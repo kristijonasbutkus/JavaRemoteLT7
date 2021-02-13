@@ -1,0 +1,26 @@
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+class runner{
+      public static void main(String args[]) throws IOException{
+           JFrame frame = new JFrame("My First GUI");
+           frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+           frame.setSize(300,300);
+          JButton button1 = new JButton("Button 1");
+          JButton button2 = new JButton("Button 2");
+          frame.getContentPane().add(button1);
+          frame.getContentPane().add(button2);
+          frame.setVisible(true);
+          BufferedImage myPicture = ImageIO.read(new File("D:\\Java stuff\\SibirDiary\\src\\Achievements.JPG"));
+          JLabel picLabel = new JLabel(new ImageIcon(myPicture));
+          add(picLabel);
+     }
+
+	private static void add(JLabel picLabel) {
+		// TODO Auto-generated method stub
+		
+	}
+}

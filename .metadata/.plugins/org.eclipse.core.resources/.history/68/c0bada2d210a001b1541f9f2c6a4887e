@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args)  {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Iveskite pirma pokemona!\n");
+		String pokemonas = scan.nextLine();
+		String ar;
+		System.out.println("Pasirinkote pati geriausia ! Ar norite ji pakeisti kitu? T/N");
+		
+		while { 
+			
+			
+		}
+		
+		
+		System.out.println("Pasirinkote pati geriausia ! Ar norite ji pakeisti kitu? T/N");
+		System.out.println("Likusi laika jusu pokemonas bus " + pokemonas);
+	}
+		
+
+}

@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args)  {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Iveskite pirma pokemona!\n");
+//Pirmojo pokemono ivedimas
+		String pokemonas = scan.nextLine();
+
+		System.out.println("Aciu uz pasirinkima. Jusu pokemonas: " + pokemonas + 
+													"\nGalbut norite ji pakeisti kitu? T/N");
+		
+
+		String ar = scan.nextLine();
+		while (ar.equals("T")) {
+					pokemonas = scan.nextLine();
+					System.out.println("Jusu pokemonas pakeistas i "+ pokemonas);
+					System.out.println("Ar norite ji pakeisti dar kitu? T/N");
+					ar = scan.nextLine();
+				}
+					
+		System.out.println("Likusi laika jusu pokemonas bus " + pokemonas);
+	}
+		
+
+}
