@@ -1,6 +1,4 @@
-package HomeWork.Task4;
-
-import com.sun.istack.internal.NotNull;
+package HomeWork.February15.Task4;
 
 public class Main {
     public static void main(String[] args) {

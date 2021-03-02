@@ -1,10 +1,11 @@
-package HomeWork.Task2;
+package HomeWork.February15.Task2;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Dog dogsArray[] = new Dog[3];
+        Dog[] dogsArray = new Dog[3];
+
 
         dogsArray[0] = new Dog("Ciobrelis", 5, "Black");
         dogsArray[1] = new Dog("Skipis", 2, "Brownish");
@@ -13,7 +14,7 @@ public class Main {
         OldestDog(dogsArray);
 
     }
-        public static void OldestDog (Dog dogsArray[]){
+        public static void OldestDog (Dog[] dogsArray){
 
             int oldest = 0;
             int arrayIndex = 0;

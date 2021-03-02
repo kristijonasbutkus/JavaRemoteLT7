@@ -8,6 +8,7 @@ public class AbstractInheritanceExample {
 
         Ship ship11 = new Ship("Didelis", 49);
         System.out.println(ship11.vehicleMaxSpeed());
+
     }
 
 }

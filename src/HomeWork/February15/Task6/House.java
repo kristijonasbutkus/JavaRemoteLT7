@@ -1,4 +1,4 @@
-package HomeWork.Task6;
+package HomeWork.February15.Task6;
 
 public class House {
     double houseArea;

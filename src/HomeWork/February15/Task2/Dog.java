@@ -1,4 +1,4 @@
-package HomeWork.Task2;
+package HomeWork.February15.Task2;
 
 public class Dog {
 

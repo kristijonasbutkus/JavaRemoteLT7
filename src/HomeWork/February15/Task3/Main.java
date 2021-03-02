@@ -1,6 +1,4 @@
-package HomeWork.Task3;
-
-import HomeWork.Task2.Dog;
+package HomeWork.February15.Task3;
 
 public class Main {
     public static void main(String[] args) {
