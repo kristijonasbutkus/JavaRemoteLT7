@@ -1,6 +1,7 @@
 package HomeWork.February22.bonus_zaidimukai.kartuves;
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Utils {
@@ -12,9 +13,7 @@ public class Utils {
         try {
             FileReader fileReader = new FileReader(WORD_TO_GUESS_FILE_LOCATION);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
-
             tempLine = bufferedReader.readLine().toUpperCase();
-
             bufferedReader.close();
 
         } catch (IOException ex){
@@ -23,54 +22,50 @@ public class Utils {
         return tempLine;
     }
 
-    public static char[] getInputFromUser ( char[] a) {
+    public static String getInputFromUser () {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nSpekite raide arba visa zodi.\n");
-        String tempLine = scanner.nextLine().toUpperCase();
 
-        if (tempLine.length() != 1) {
-            a[0] = tempLine.charAt(0);
-        }
-        else {
-                a = tempLine.toCharArray();
-        }
-        return a;
+        //if (tempLine.length() == 1) {
+         //   a[0] = tempLine.charAt(0);
+        //}
+        //else {
+         //   a = tempLine.toCharArray();
+        //}
+        return scanner.nextLine().toUpperCase();
     }
 
-     public static void drawWord(char[] a) {
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i]);
-        }
-            System.out.println("");
-    }
+    public static char[] compareGuess(char[] originalArray, String userInput, char[] temp) {
+        if (userInput.length() == 1) {
+            System.out.println("Speta raide: " + userInput);
+            for (int i = 0; i < originalArray.length; i++) {
+                if (Character.toString(originalArray[i]).equals(userInput)) {
+                    System.out.println("Atspejote raide!\n");
+                    temp[i] = userInput.charAt(0);
 
-    public static char[] compare (char[] original, char[] userInput) {
-        char[] temp = new char[original.length];
-
-        if (userInput.length == 1) {
-            System.out.println("Speta raide: " + userInput[0]);
-            for (int i = 0; i < original.length; i++) {
-                if (Character.toString(original[i]).equals(Character.toString(userInput[0]))) { // check if correct
-                    temp[i] = userInput[0];
-                    System.out.println("pataikete raide");
-                }
-                else {
-                    temp[i] = '_';
                 }
             }
         }
-        else if (userInput.length > 1) {
-            System.out.println("Spetas zodis: " + String.valueOf(userInput));
-            if (String.valueOf(original).equals(String.valueOf(userInput))) {
-                System.out.println("Atspejote!");
-               // System.out.println(String.valueOf(original));
-               // System.out.println(String.valueOf(userInput));
+        else if (userInput.length() > 1) {
+            System.out.println("Spetas zodis: " + userInput);
+
+            if (String.valueOf(originalArray).equals(userInput)) {
+                System.out.println("Atspejote visa zodi!\n Pasleptas zodis buvo" + String.valueOf(originalArray));
+            }
+            else {
+                System.out.println("Deja, nepataikete.. zaidima teks pradeti is naujo");
             }
         }
         else {
             System.out.println("Klaida! klaida :)");
         }
         return temp;
+    }
+
+    public static void printArray (char[] array) {
+        for (char c : array) {
+            System.out.print(c + " ");
+        }
     }
 
 }

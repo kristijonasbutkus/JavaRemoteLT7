@@ -1,15 +1,31 @@
 package HomeWork.February22.Task4;
 
 public class Device {
-    protected String name;
-    protected double price;
-    protected int quantity;
-    protected String description;
+    public String name;
+    public double price;
+    public double quantity;
+    public String description;
 
-    Device (String name, double price, int quantity, String description) {
+    Device(String name, double price, double quantity, String description) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
         this.description = description;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getQuantity() {
+        return quantity;
+    }
+
+    public String getDescription() {
+        return description;
     }
 }
