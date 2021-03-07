@@ -1,4 +1,4 @@
-package basics;
+package fundamentals_testing;
 
 public class Calculator {
     public int add (int firstnum, int secontnum) {

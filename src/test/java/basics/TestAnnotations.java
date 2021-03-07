@@ -12,8 +12,7 @@ public class TestAnnotations {
 
     @BeforeAll
     public static void setUp() {
-        System.out.println("This message will be displayed once before executing all test methods");
-    }
+        System.out.println("This message will be displayed once before executing all test methods"); }
 
     @BeforeEach
     public void init() {
@@ -40,9 +39,6 @@ public class TestAnnotations {
     public void secondTest() {
         System.out.println("Executing second test...");
     }
-
-
-    //@DisplayName("Test Number 3")
 
     @Test
     @Disabled
