@@ -34,7 +34,7 @@ public class AssertionExamples {
         //when
         int result = calculator.divide(10,2);
         //then
-        Assertions.assertEquals(5, result);
+        Assertions.assertEquals(3, result);
     }
 
     @Test
