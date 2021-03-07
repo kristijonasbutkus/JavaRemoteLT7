@@ -22,7 +22,7 @@ public class AssertionExamples {
         //given
         Calculator calculator = new Calculator();
         //when
-        int result = calculator.substract(15, 2);
+        int result = calculator.substract(14, 2);
         //then
         Assertions.assertEquals(13, result);
     }
