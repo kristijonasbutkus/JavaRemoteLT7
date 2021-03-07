@@ -11,7 +11,7 @@ public class AssertionExamples {
         Calculator calculator = new Calculator();
 
         //when
-        int result = calculator.add(5,5);
+        int result = calculator.add(4,5);
 
         //then
         Assertions.assertEquals(10,result);
