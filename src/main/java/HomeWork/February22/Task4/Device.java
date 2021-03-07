@@ -3,10 +3,10 @@ package HomeWork.February22.Task4;
 public class Device {
     public String name;
     public double price;
-    public double quantity;
+    public int quantity;
     public String description;
 
-    Device(String name, double price, double quantity, String description) {
+    Device(String name, double price, int quantity, String description) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -21,7 +21,7 @@ public class Device {
         return price;
     }
 
-    public double getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 

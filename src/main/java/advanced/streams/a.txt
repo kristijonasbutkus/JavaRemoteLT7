@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+Su esamu žodžių sąrašu atlikite užduotis:
+    * Sujunkite žodžius į vieną naudodami `reduce` funkciją;
+    * Naudodami pradinį žodžių sąrašą, paverskite juos didžiosiomis raidėmis su `map`
+    funkcija ir vėl
+    sujunkite į vieną žodį su `reduce`;
+    * Naudodami pradinį žodžių sąrašą, sujunkite į vientisą tekstą, kiekvieną žodį
+    atskyrę ženklu `,`
+    (tekstas negali prasidėti ar baigtis nurodytu ženklu);
+    * Naudodami pradinį žodžių sąrašą, išspausdinkite tuos, kurie turi raidę `o`.
+    [Rytas, Lova, Durys, Automobilis, Katinas]

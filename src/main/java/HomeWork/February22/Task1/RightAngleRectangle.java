@@ -2,8 +2,8 @@ package HomeWork.February22.Task1;
 
 // STATUSIS TRIKAMPIS
 public class RightAngleRectangle {
-    double width;
-    double height;
+    protected double width;
+    protected double height;
 
     public RightAngleRectangle ( double width, double height) {
         this.width = width;
