@@ -4,6 +4,8 @@ import fundamentals_testing.Calculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class AssertionExamples {
 
     @Test
@@ -15,7 +17,7 @@ public class AssertionExamples {
         int result = calculator.add(5,5);
 
         //then
-        Assertions.assertEquals(10,result);
+        assertEquals(10,result);
     }
 
     @Test
@@ -25,7 +27,7 @@ public class AssertionExamples {
         //when
         int result = calculator.substract(10, 2);
         //then
-        Assertions.assertEquals(8, result);
+        assertEquals(8, result);
     }
 
     @Test
@@ -35,7 +37,7 @@ public class AssertionExamples {
         //when
         int result = calculator.divide(10,2);
         //then
-        Assertions.assertEquals(5, result);
+        assertEquals(5, result);
     }
 
     @Test
@@ -45,7 +47,7 @@ public class AssertionExamples {
         //when
         int result = calculator.miltiply(10,2);
         //then
-        Assertions.assertEquals(20, result);
+        assertEquals(20, result);
     }
 
     @Test
