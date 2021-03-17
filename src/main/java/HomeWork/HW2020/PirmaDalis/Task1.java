@@ -3,7 +3,7 @@ Write an application that will read diameter of a circle (variable of type float
 and calculate perimeter of given circle. Firstly, assume π = 3.14. Later, use the
 value of π from the built-in Math class.
  */
-package PirmaDalis;
+package HomeWork.HW2020.PirmaDalis;
 
 import java.lang.Math;
 import java.util.Scanner;

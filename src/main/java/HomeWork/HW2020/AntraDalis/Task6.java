@@ -1,4 +1,4 @@
-package AntraDalis;
+package HomeWork.HW2020.AntraDalis;
 
 import java.util.Scanner;
 

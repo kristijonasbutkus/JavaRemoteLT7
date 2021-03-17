@@ -1,4 +1,4 @@
-package TreciaDalis;
+package HomeWork.HW2020.TreciaDalis;
 
 import java.util.Scanner;
 import java.lang.Math;

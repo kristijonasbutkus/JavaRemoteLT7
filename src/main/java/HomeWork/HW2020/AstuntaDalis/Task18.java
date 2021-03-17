@@ -1,4 +1,4 @@
-package AstuntaDalis;
+package HomeWork.HW2020.AstuntaDalis;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package KetvirtaDalis;
+package HomeWork.HW2020.KetvirtaDalis;
 
 import java.util.Scanner;
 

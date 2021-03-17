@@ -1,4 +1,4 @@
-package SestaDalis;
+package HomeWork.HW2020.SestaDalis;
 
 import java.util.Scanner;
 import java.lang.*;

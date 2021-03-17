@@ -1,4 +1,4 @@
-package PirmaDalis;
+package HomeWork.HW2020.PirmaDalis;
 
 import java.util.Scanner;
 import java.lang.Math;

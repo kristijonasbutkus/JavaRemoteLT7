@@ -1,9 +1,9 @@
-package KetvirtaDalis;
+package HomeWork.HW2020.KetvirtaDalis;
 
 // Java program to print wave
 // pattern of a given string
 import java.lang.*;
-import java.util.*;
+
 class GFG {
     // Driver Code
     public static void main(String[] args) {

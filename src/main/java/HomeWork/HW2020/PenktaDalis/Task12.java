@@ -1,4 +1,4 @@
-package PenktaDalis;
+package HomeWork.HW2020.PenktaDalis;
 
 import java.util.Scanner;
 
